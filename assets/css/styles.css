@@ -1,0 +1,147 @@
+body {
+  background-image: url(/assets/img/WallFon.com_11406.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(0, 247, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.text1 {
+  overflow-y: scroll;
+  width: 300px; 
+  height: 200px;
+  background-color: rgba(7, 197, 181, 0.5);
+  margin-top: 30px;
+}
+
+.text2 {
+  width: 300px;
+  height: 200px;
+  overflow-x: scroll;
+  background-color: rgba(197, 7, 181, 0.5);
+  margin-top: 30px;
+}
+.text3 {
+  overflow: auto;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(236, 164, 9, 0.5);
+  margin-top: 30px;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-red {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.747);
+}
+
+
+.box-green {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 255, 21, 0.5);
+}
+
+.box-blue {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(4, 0, 255, 0.5);
+}
+
+.box-black {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-violet {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(201, 0, 241, 0.5);
+}
+
+
+@media(max-width: 1200px) {
+
+  .box{
+    margin: 0px 240px;
+  }
+}
+@media(max-width: 992px) {
+
+  .box{
+    margin: 0px 100px;
+  }
+
+
+}
+@media (max-width: 768px) {
+  
+  .box{
+    margin: 0px 150px;
+  }
+  .box-red:last-child {
+    display: none;
+  }
+  .box-green:last-child {
+    display: none;
+  }
+  .box-blue:last-child {
+    display: none;
+  }
+  .box-black:last-child {
+    display: none;
+  }
+  .box-violet:last-child {
+    display: none;
+  }
+  
+}
+@media (max-width: 576px) {
+
+  .box{
+    margin: 0px 90px;
+  }
+
+  .box-red:last-child {
+    display: none;
+  }
+  .box-green:last-child {
+    display: none;
+  }
+  .box-blue:last-child {
+    display: none;
+  }
+  .box-black:last-child {
+    display: none;
+  }
+  .box-violet:last-child {
+    display: none;
+  }
+}
